@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch model files
+*.pt
+*.pth
+
+# Environment files
+.env
+.env.*
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.sqlite3
+.cache/
+*.pkl
+
+# Flask specific
+instance/
+*.db
+
+# Coverage / test reports
+htmlcov/
+coverage.xml
+.pytest_cache/
